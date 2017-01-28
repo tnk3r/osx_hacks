@@ -11,17 +11,15 @@ I need every bit of power OSX has to offer.
 
 
 
-check what it geting throttled:
+check what is getting throttled:
 
 sudo fs_usage | grep THROTTLED
-
 
 
 
 check parameter:
 
 sysctl -a | grep throttle_enabled
-
 
 
 
