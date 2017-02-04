@@ -1,0 +1,7 @@
+# Allows software to be installed from anywhere changed in 10.12/11 in sys prefs
+
+sudo spctl --master-disable
+
+# To Enable
+
+sudo spctl --master-enable
