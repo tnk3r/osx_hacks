@@ -1,0 +1,7 @@
+Sets the dock to only show active applications.
+
+defaults write com.apple.dock static-only -bool TRUE; killall Dock
+
+TimeMachine will never ask to use new disk
+
+defaults write com.apple.TimeMachine DoNotOfferNewDisksForBackup -bool TRUE
