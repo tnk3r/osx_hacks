@@ -1,11 +1,11 @@
-Sets the dock to only show active applications.
+#Sets the dock to only show active applications.
 
 defaults write com.apple.dock static-only -bool TRUE; killall Dock
 
-TimeMachine will never ask to use new disk
+#TimeMachine will never ask to use new disk
 
 defaults write com.apple.TimeMachine DoNotOfferNewDisksForBackup -bool TRUE
 
-Stop Software Update Check everyday
+#Stop Software Update Check everyday
 
 softwareupdate --schedule off
