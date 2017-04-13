@@ -6,6 +6,6 @@ defaults write com.apple.dock static-only -bool TRUE; killall Dock
 
 defaults write com.apple.TimeMachine DoNotOfferNewDisksForBackup -bool TRUE
 
-# Stop Software Update Check everyday
+# Stop Software Update Check everyday, helpful
 
 softwareupdate --schedule off
