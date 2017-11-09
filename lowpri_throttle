@@ -4,23 +4,17 @@
 'The OSX Performance Unlocker'
 
 I've never seen such performance come from only one kernel parameter.
-It's like Apple is making their software slower on purpose for more effciency on lower
-performance systems ie: Air/Ipad/mini, etc
-
-I need every bit of power OSX has to offer. 
-
-
+It's like Apple is making their software more effcienct on lower
+performance systems ie: Air/Ipad/mini, etc, by throttling resource heavy processes,
 
 check what is getting throttled:
 
 sudo fs_usage | grep THROTTLED
 
 
-
 check parameter:
 
-sysctl -a | grep throttle_enabled
-
+sysctl debug.lowpri_throttle_enabled
 
 
 test parameter:
