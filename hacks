@@ -9,3 +9,8 @@ defaults write com.apple.TimeMachine DoNotOfferNewDisksForBackup -bool TRUE
 # Stop Software Update Check everyday, helpful
 
 softwareupdate --schedule off
+
+
+FULL LIST
+
+https://github.com/herrbischoff/awesome-macos-command-line
